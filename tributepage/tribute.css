@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Anton&family=Lobster&family=Noto+Sans:ital@0;1&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 70vh;
+    background: #40407a;
+    font-family:'Lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+nav{
+    font-family:'Noto Sans', sans-serif;
+    overflow: auto;
+    width: 100%;
+    background: black;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 0 30px;
+    list-style: none;
+
+}
+
+li{
+    float: left;
+    text-size-adjust: 20px;
+    
+}
+.fa-solid {
+    float: left;
+    text-size-adjust: 20px;
+    
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    color: white;
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 660px;
+
+}
+.logo {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+nav a{
+    width: auto;
+    display: inline-flex;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+nav a:hover {
+    background: black;
+    transition: 0.5s;
+    transform: rotate(3deg);
+}
+
+p{
+    font-size: larger;
+    color: white;
+}
+
+.head {
+    color: #40407a;
+    font-size: xx-large;
+}
+.para{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    background: white;
+    padding: 1em 0 1em 0;
+    flex: 0 0 100px;
+}
+
+
+main {
+    background:white;
+    padding: 1em 0 1em 0;
+    flex: 5 5 150px;
+}
+
+.right{
+    background:white ;
+    padding: 2em 0 3em 0;
+    flex: 1;
+    border-color: aqua;
+
+}
+
+.name {
+    top: 20px;
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+.birth {
+    font-family: 'Alata', sans-serif;
+    color: #40407a;
+}
+
+.career {
+    color:blue;
+}
+footer{
+    background: white;
+    padding: 1em 0 1em 0;
+}
+
